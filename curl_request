@@ -1,0 +1,45 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data ''{
+   "id": "319",
+   "clock": 1667980063,
+   "acknowledged": 0,
+   "name": "Unavailable by ICMP ping",
+   "value": 0,
+   "severity": 0,
+   "trigger": {
+      "id": "21515",
+      "revealedDescription": "Unavailable by ICMP ping",
+      "description": "Unavailable by ICMP ping",
+      "revealedComments": "Last ten attempts returned timeout.  Please check device connectivity.",
+      "comments": "Last ten attempts returned timeout.  Please check device connectivity.",
+      "expression": "{29303}=0",
+      "lastChangeTime": 0,
+      "priority": 1,
+      "state": 0,
+      "status": 0,
+      "url": "",
+      "value": 0
+   },
+   "group": {
+      "id": "5",
+      "name": "Discovered hosts"
+   },
+   "host": {
+      "id": "10754",
+      "hostValue": "DemoHost",
+      "name": "DemoHost"
+   },
+   "itemsIds": {
+      "id": "319"
+   },
+   "tags": [
+      {
+         "tag": "Application",
+         "value": "Status"
+      }
+   ],
+   "zabbixVersion": 5.4,
+   "suppressed": 0
+}'' \
+  https://xy.acure.io/api/public/cl/v1/stream-data?streamKey=bbdc8743-e184-448a-8c00-bce8cc708430
