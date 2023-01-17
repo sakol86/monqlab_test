@@ -1,6 +1,6 @@
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data ''{
+  --data '{
    "id": "319",
    "clock": 1667980063,
    "acknowledged": 0,
@@ -41,5 +41,5 @@ curl --header "Content-Type: application/json" \
    ],
    "zabbixVersion": 5.4,
    "suppressed": 0
-}'' \
+}' \
   https://xy.acure.io/api/public/cl/v1/stream-data?streamKey=bbdc8743-e184-448a-8c00-bce8cc708430
