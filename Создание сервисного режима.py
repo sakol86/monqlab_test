@@ -6,9 +6,9 @@ payload={"dateStart": "2023-01-15T10:56:17+03:00",
   "title": "Test Service Mode",
   "configItems": [
     {
-      "id": 1,
+      "id": 1597,
       "scope": "CiAndChildren",
-      "depth": -1
+      "depth": 3
     }
   ],
   "labels": {
